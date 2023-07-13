@@ -1,0 +1,23 @@
+@import "assets/scss/_part.scss";
+@import "assets/scss/fonts.scss";
+@import "assets/scss/vars.scss";
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.86px;
+  background: $color-main-background;
+  color: $color-white;
+  position: relative;
+}
+
+.main-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  @media (max-width: 1360px) {
+    margin: 0 20px;
+  }
+}

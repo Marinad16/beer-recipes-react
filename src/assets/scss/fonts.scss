@@ -1,0 +1,100 @@
+$url: "../fonts/";
+
+@font-face {
+  font-family: 'Manrope';
+  src: url(#{#{$url}} + 'Manrope-Medium.eot');
+  src: local('Manrope Medium'), local('Manrope-Medium'),
+  url(#{#{$url}} + 'Manrope-Medium.eot?#iefix') format('embedded-opentype'),
+  url(#{#{$url}} + 'Manrope-Medium.woff2') format('woff2'),
+  url(#{#{$url}} + 'Manrope-Medium.woff') format('woff'),
+  url(#{#{$url}} + 'Manrope-Medium.ttf') format('truetype'),
+  url(#{#{$url}} + 'Manrope-Medium.svg#Manrope-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url(#{#{$url}} + 'Manrope-Regular.eot');
+  src: local('Manrope Regular'), local('Manrope-Regular'),
+  url(#{#{$url}} + 'Manrope-Regular.eot?#iefix') format('embedded-opentype'),
+  url(#{#{$url}} +  'Manrope-Regular.woff2') format('woff2'),
+  url(#{#{$url}} + 'Manrope-Regular.woff') format('woff'),
+  url(#{#{$url}} + 'Manrope-Regular.ttf') format('truetype'),
+  url(#{#{$url}} + 'Manrope-Regular.svg#Manrope-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url(#{#{$url}} + 'Manrope-ExtraLight.eot');
+  src: local('Manrope ExtraLight'), local('Manrope-ExtraLight'),
+  url(#{#{$url}} + 'Manrope-ExtraLight.eot?#iefix') format('embedded-opentype'),
+  url(#{#{$url}} + 'Manrope-ExtraLight.woff2') format('woff2'),
+  url(#{#{$url}} + 'Manrope-ExtraLight.woff') format('woff'),
+  url(#{#{$url}} + 'Manrope-ExtraLight.ttf') format('truetype'),
+  url(#{#{$url}} + 'Manrope-ExtraLight.svg#Manrope-ExtraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url(#{#{$url}} + 'Manrope-Bold.eot');
+  src: local('Manrope Bold'), local('Manrope-Bold'),
+  url(#{#{$url}} + 'Manrope-Bold.eot?#iefix') format('embedded-opentype'),
+  url(#{#{$url}} + 'Manrope-Bold.woff2') format('woff2'),
+  url(#{#{$url}} + 'Manrope-Bold.woff') format('woff'),
+  url(#{#{$url}} + 'Manrope-Bold.ttf') format('truetype'),
+  url(#{#{$url}} + 'Manrope-Bold.svg#Manrope-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url(#{$url} + 'Manrope-Light.eot');
+  src: local('Manrope Light'), local('Manrope-Light'),
+  url(#{$url} + 'Manrope-Light.eot?#iefix') format('embedded-opentype'),
+  url(#{$url} + 'Manrope-Light.woff2') format('woff2'),
+  url(#{$url} + 'Manrope-Light.woff') format('woff'),
+  url(#{$url} + 'Manrope-Light.ttf') format('truetype'),
+  url(#{$url} + 'Manrope-Light.svg#Manrope-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url(#{$url} + 'Manrope-ExtraBold.eot');
+  src: local('Manrope ExtraBold'), local('Manrope-ExtraBold'),
+  url(#{$url} + 'Manrope-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url(#{$url} + 'Manrope-ExtraBold.woff2') format('woff2'),
+  url(#{$url} + 'Manrope-ExtraBold.woff') format('woff'),
+  url(#{$url} + 'Manrope-ExtraBold.ttf') format('truetype'),
+  url(#{$url} + 'Manrope-ExtraBold.svg#Manrope-ExtraBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url(#{$url} + 'Manrope-SemiBold.eot');
+  src: local('Manrope SemiBold'), local('Manrope-SemiBold'),
+  url(#{$url} + 'Manrope-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url(#{$url} + 'Manrope-SemiBold.woff2') format('woff2'),
+  url(#{$url} + 'Manrope-SemiBold.woff') format('woff'),
+  url(#{$url} + 'Manrope-SemiBold.ttf') format('truetype'),
+  url(#{$url} + 'Manrope-SemiBold.svg#Manrope-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+

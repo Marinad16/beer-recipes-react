@@ -1,0 +1,10 @@
+
+.list {
+  &-wrapper {
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% + 24px);
+    margin-left: -12px;
+  }
+}

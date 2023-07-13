@@ -1,0 +1,57 @@
+@import "../../assets/scss/vars";
+
+.item {
+  &__wrapper {
+    max-width: 20%;
+    flex: 0 0 20%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 50px;
+  }
+  &__link {
+    max-width: 20%;
+    width: 100%;
+    height: 200px;
+    text-decoration: none;
+    color: $color-white;
+    &:hover {
+      .item__link--image {
+        img {
+          transform: scale(1.05);
+        }
+      }
+    }
+    &--image {
+      width: 100%;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        transition: all .4s ease-in-out;
+      }
+    }
+    &--title {
+      font-size: 24px;
+      text-align: center;
+      margin: 10px 0;
+    }
+    &--subtitle {
+      color: $color-text-grey;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+    &--desc {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 5;
+      line-height: 20px;
+      max-height: 100px;
+    }
+  }
+}
